@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>自由听书 · AI Voice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📖 自由听书</h1>
+<p class="sub">粘贴任何文字 · 免费朗读 · 无限制</p>
+
+<textarea id="text" placeholder="在这里粘贴任何你想听的文字…"></textarea>
+
+<div class="controls">
+  <button onclick="play()">▶ 播放</button>
+  <button onclick="pause()">⏸ 暂停</button>
+  <button onclick="stop()">⏹ 停止</button>
+
+  <select id="rate">
+    <option value="0.8">0.8x</option>
+    <option value="1" selected>1x</option>
+    <option value="1.2">1.2x</option>
+    <option value="1.5">1.5x</option>
+  </select>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
