@@ -6,5 +6,3 @@ CHATGPT｜AI-created text-to-voice reading website.
 COST｜TOTALLY FREE
 
 OFFLINE USE｜CAN
-
-WEBSITE COMPLETION TIME｜1 day
